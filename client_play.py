@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-# Echo client
+# NET_CMD_PLAY
 import socket
 
-HOST = '192.168.4.208'    # all available interfaces
+HOST = '192.168.4.208'  # all available interfaces
 PORT = 7610  # any port > 1023
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
